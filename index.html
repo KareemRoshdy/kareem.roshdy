@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/images/favicon.ico"
+    />
+
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=chillax@600,500,300,400,200&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>KareemRoshdy | Portfolio</title>
+
+    <link rel="stylesheet" href="style/all.min.css" />
+    <link rel="stylesheet" href="style/simple-line-icons.css" />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <!-- Start Header Section -->
+    <header class="header flex align-center space-between">
+      <a href="#" class="logo flex align-center gap-10">
+        <img src="assets/images/logo.png" width="35" height="35" alt="logo" />
+        <p>kareem roshdy</p>
+      </a>
+
+      <div class="theme-icon">
+        <span
+          class="fas fa-sun light flex align-center justify-center"
+          id="light"
+        ></span>
+        <span
+          class="fas fa-moon dark flex align-center justify-center"
+          id="dark"
+        ></span>
+      </div>
+    </header>
+    <!-- End Header Section -->
+
+    <!-- Start main Section -->
+    <main class="main">
+      <!-- Start Hero Section -->
+      <section class="hero">
+        <div class="container flex align-center gap-20">
+          <div class="profile-image">
+            <img
+              src="assets/images/profile1.jpg"
+              width="150"
+              height="150"
+              alt="profileImage"
+            />
+          </div>
+
+          <div class="profile-info">
+            <p class="job-title">Frontend Developer | ReactJS</p>
+            <h1 class="name">Kareem Roshdy - كريم رشدي</h1>
+            <p class="description">
+              I am Kareem Roshdy, web developer with +2 years of experience. i'm
+              from Ashmun, Al Minufiyah, Egypt. I have rich experience in web
+              site design and building and customization, and building SPA
+              [Single Page Application] using React.js Framework.
+            </p>
+
+            <div class="find-me flex align-center gap-10">
+              <a
+                href="mailto:karem22roshdy@gmail.com"
+                target="_blank"
+                class="gmail flex align-center gap-5"
+              >
+                <img
+                  src="assets/images/icons/mail.svg"
+                  alt="gmailIcon"
+                  width="20"
+                  height="20"
+                />
+                <p>karem22roshdy@gmail.com</p>
+              </a>
+
+              <a class="phone flex align-center gap-5">
+                <img
+                  src="assets/images/icons/call.svg"
+                  alt="gmailIcon"
+                  width="20"
+                  height="20"
+                />
+                <p>+20-01119669558</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Hero Section -->
+
+      <!-- Start Article Section -->
+      <article class="profile-content flex gap-20">
+        <section class="about">
+          <div class="container">
+            <div class="about-heading">
+              <p>about</p>
+            </div>
+
+            <div class="about-description">
+              <p>
+                An ambitious front-end web developer with a strong foundation in
+                JavaScript, HTML, CSS and React JS. Eager to learn from
+                experienced professionals and contribute to innovative projects
+                as a junior front-end developer. And seeking to benefit from my
+                skills and knowledge to join your team. As a front-end developer
+              </p>
+            </div>
+
+            <div class="details">
+              <div class="flex align-center gap-5">
+                <i class="icon-location-pin"></i>
+                <p>Ashmun, Al Minufiyah, Egypt</p>
+              </div>
+
+              <div class="flex align-center gap-5">
+                <i class="icon-bag"></i>
+                <p>Frontend Developer</p>
+              </div>
+
+              <a
+                href="https://www.linkedin.com/in/kareem-roshdy-abb14022b/"
+                class="flex align-center gap-5"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin"></i>
+                <p>Kareem Roshdy - كريم رشدي</p>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <div class="about-view">
+          <nav class="navbar">
+            <ul class="nav-links flex align-center">
+              <li class="nav-link active" id="projects">Projects</li>
+              <li class="nav-link" id="resume">Resume</li>
+              <li class="nav-link" id="contact">Contact</li>
+            </ul>
+          </nav>
+
+          <div class="wrapper-content">
+            <div class="loader">
+              <span></span>
+            </div>
+            <div class="projects-section">
+              <div class="projects-container flex align-center">
+                <!-- <div class="project-box">
+                  <div class="image">
+                    <img
+                      src="assets/images/projects/project-2.jpg"
+                      alt="projectImage"
+                    />
+                  </div>
+
+                  <div class="project-type">
+                    <p>Web app</p>
+                  </div>
+
+                  <div class="project-title">
+                    <a href="#">ToDo List App</a>
+                  </div>
+                </div>
+
+                <div class="project-box">
+                  <div class="image">
+                    <img
+                      src="assets/images/projects/project-1.png"
+                      alt="projectImage"
+                    />
+                  </div>
+
+                  <div class="project-type">
+                    <p>Web app</p>
+                  </div>
+
+                  <div class="project-title">
+                    <a href="#">E-commerce App</a>
+                  </div>
+                </div>
+
+                <div class="project-box">
+                  <div class="image">
+                    <img
+                      src="assets/images/projects/project-3.png"
+                      alt="projectImage"
+                    />
+                  </div>
+
+                  <div class="project-type">
+                    <p>Web app</p>
+                  </div>
+
+                  <div class="project-title">
+                    <a href="#">Restaurant App</a>
+                  </div>
+                </div>
+
+                <div class="project-box">
+                  <div class="image">
+                    <img
+                      src="assets/images/projects/project-4.png"
+                      alt="projectImage"
+                    />
+                  </div>
+
+                  <div class="project-type">
+                    <p>Web app</p>
+                  </div>
+
+                  <div class="project-title">
+                    <a href="#">Animated Navigation</a>
+                  </div>
+                </div>
+
+                <div class="project-box">
+                  <div class="image">
+                    <img
+                      src="assets/images/projects/project-5.png"
+                      alt="projectImage"
+                    />
+                  </div>
+
+                  <div class="project-type">
+                    <p>Website</p>
+                  </div>
+
+                  <div class="project-title">
+                    <a href="#">Portfolio Website</a>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+
+            <div class="resume-section hidden">
+              <div class="resume-container">
+                <div class="resume-wrapper">
+                  <div class="experience">
+                    <div class="experience-heading">
+                      <h4>Experience</h4>
+                    </div>
+                    <div class="experience-container flex gap-20">
+                      <div class="experience-box">
+                        <h4 class="experience-title">
+                          Frontend Developer Intern, Information Technology
+                          Institute (ITI)
+                        </h4>
+                        <p class="experience-date">July 2021 - August 2021</p>
+                        <p class="experience-desc">
+                          Intro To Web Development Technologies HTML, CSS, JS &
+                          Build a full website using the Web Development
+                          Technologies
+                        </p>
+                      </div>
+
+                      <div class="experience-box">
+                        <h4 class="experience-title">
+                          ReactJS Developer Intern, Information Technology
+                          Institute (ITI)
+                        </h4>
+                        <p class="experience-date">
+                          January 2023 - February 2023
+                        </p>
+                        <p class="experience-desc">
+                          Advanced Web Development Build more than 3 projects
+                          using ReactJS, State management (Redux), API's, Hooks
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="education">
+                    <div class="experience">
+                      <div class="experience-heading">
+                        <h4>Education</h4>
+                      </div>
+                      <div class="experience-container flex gap-20">
+                        <div class="experience-box">
+                          <h4 class="experience-title">
+                            Certification in web development with Frontend
+                            Technologies (ITI)
+                          </h4>
+                          <p class="experience-date">July 2021 - August 2021</p>
+                        </div>
+
+                        <div class="experience-box">
+                          <h4 class="experience-title">
+                            Certification in web development with React.js(ITI)
+                          </h4>
+                          <p class="experience-date">
+                            January 2023 - February 2023
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="experience">
+                      <div class="experience-container">
+                        <div class="experience-box">
+                          <h4 class="experience-title">
+                            DELTA TECHNOLOGICAL UNIVERSITY
+                          </h4>
+                          <p class="experience-date">2020 - Present</p>
+                          <p class="experience-desc">
+                            Specialize: Information Technology (IT)
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="experience">
+                  <div class="experience-heading">
+                    <h4>Skills and Technologies</h4>
+                  </div>
+                  <div class="skills-container">
+                    <div class="experience-container flex gap-20">
+                      <div class="experience-box flex align-center gap-10">
+                        <img src="assets/images/icons/html5.svg" alt="html" />
+                        <h4>HTML5</h4>
+                      </div>
+
+                      <div class="experience-box flex align-center gap-10">
+                        <img src="assets/images/icons/css3.svg" alt="css" />
+                        <h4>CSS3</h4>
+                      </div>
+
+                      <div class="experience-box flex align-center gap-10">
+                        <img
+                          src="assets/images/icons/javascript.svg"
+                          alt="javascript"
+                        />
+                        <h4>JavaScript</h4>
+                      </div>
+
+                      <div class="experience-box flex align-center gap-10">
+                        <img
+                          src="assets/images/icons/react.js.svg"
+                          alt="ReactJS"
+                        />
+                        <h4>ReactJS</h4>
+                      </div>
+                    </div>
+
+                    <div class="experience-container flex gap-20">
+                      <div class="experience-box flex align-center gap-10">
+                        <img
+                          src="assets/images/icons/node.js.svg"
+                          alt="nodejs"
+                        />
+                        <h4>node.js</h4>
+                      </div>
+
+                      <div class="experience-box flex align-center gap-10">
+                        <img
+                          src="assets/images/icons/mongoDB.svg"
+                          alt="mongoDB"
+                        />
+                        <h4>mongoDB</h4>
+                      </div>
+
+                      <div class="experience-box flex align-center gap-10">
+                        <img
+                          src="assets/images/icons/github.svg"
+                          alt="github"
+                        />
+                        <h4>gitHub</h4>
+                      </div>
+
+                      <div class="experience-box flex align-center gap-10">
+                        <img
+                          src="assets/images/icons/VS_code.svg"
+                          alt="VSCode"
+                        />
+                        <h4>VS Code</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-section hidden">
+              <div class="content-container flex space-between gap-15">
+                <div class="content-info">
+                  <div class="content-info-heading">
+                    <h4>Content info</h4>
+                  </div>
+
+                  <div class="content-info-details">
+                    <div class="content-info-box flex align-center gap-15">
+                      <div class="icon">
+                        <i class="icon-envelope"></i>
+                      </div>
+                      <div class="content-box-details">
+                        <p>mail me</p>
+                        <p>karem22roshdy@gmail.com</p>
+                      </div>
+                    </div>
+
+                    <div class="content-info-box flex align-center gap-15">
+                      <div class="icon">
+                        <i class="icon-phone"></i>
+                      </div>
+                      <div class="content-box-details">
+                        <p>contact me</p>
+                        <p>+20-01119669558</p>
+                      </div>
+                    </div>
+
+                    <div class="content-info-box flex align-center gap-15">
+                      <div class="icon">
+                        <i class="icon-location-pin"></i>
+                      </div>
+                      <div class="content-box-details">
+                        <p>location</p>
+                        <p>Ashmun, Al Minufiyah, Egypt</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="social-info">
+                    <h4>Social info</h4>
+                    <div class="icons flex align-center gap-20">
+                      <a
+                        href="https://www.facebook.com/kareem.roshdy.796?mibextid=ZbWKwL"
+                        target="_blank"
+                        ><i class="fab fa-facebook-f"></i
+                      ></a>
+                      <a href="https://github.com/KareemRoshdy" target="_blank">
+                        <i class="fab fa-github"></i
+                      ></a>
+                      <a
+                        href="https://www.linkedin.com/in/kareem-roshdy-abb14022b/"
+                        target="_blank"
+                      >
+                        <i class="fab fa-linkedin-in"></i
+                      ></a>
+                      <a
+                        href="https://youtube.com/@kareemroshdy2"
+                        target="_blank"
+                        ><i class="fab fa-youtube"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="content-form">
+                  <form action="https://formspree.io/f/xrgwjjrp" method="POST">
+                    <h3 class="form-heading">Let's work together.</h3>
+
+                    <div class="inputs">
+                      <input
+                        type="text"
+                        placeholder="name*"
+                        name="name"
+                        id="name"
+                        required
+                      />
+                      <input
+                        type="email"
+                        placeholder="email*"
+                        name="email"
+                        id="email"
+                        required
+                      />
+                      <input
+                        type="text"
+                        placeholder="subject"
+                        name="subject"
+                        id="subject"
+                        required
+                      />
+                      <textarea
+                        name="message"
+                        id="message"
+                        cols="30"
+                        rows="10"
+                        placeholder="message*"
+                        required
+                      ></textarea>
+                    </div>
+                    <button class="btn">send message</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-details hidden">
+              <!-- <div class="product-image">
+                <img
+                  src="assets/images/projects/project-1.png"
+                  alt="projectImage"
+                />
+              </div>
+
+              <div class="project-info">
+                <div class="project-text flex align-center space-between">
+                  <p class="project-title">E-commerce App</p>
+                  <p class="project-type">Web app</p>
+                </div>
+
+                <div class="project-desc">
+                  <p>
+                    Create E-Commerce App Using HTML, CSS, And JavaScript. The
+                    Application Contains A Login Page And An Account Creation
+                    Page In Addition To The Home Page will find all products and
+                    you can add any product in your shopping cart and delete any
+                    product you added in addition to the profile page that you
+                    can find all your own information and products you add and
+                    you can change your name, email or your password
+                  </p>
+                </div>
+
+                <div class="product-links flex align-center gap-20">
+                  <a href="#" class="link flex align-center gap-10">
+                    <i class="icon-link"></i>
+                    <p>visit it</p>
+                  </a>
+
+                  <a href="#" class="link flex align-center gap-10">
+                    <i class="icon-social-github"></i>
+                    <p>repo link</p>
+                  </a>
+
+                  <a href="#" class="link flex align-center gap-10">
+                    <i class="icon-social-youtube"></i>
+                    <p>youTube link</p>
+                  </a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </article>
+      <!-- End Article Section -->
+
+      <!-- Start Video Section -->
+      <section class="video video-section flex align-center justify-center">
+        <div class="video-container">
+          <i title="close" class="fas fa-window-close close"></i>
+
+          <video controls muted>
+            <source src="assets/videos/project-1.mp4" />
+          </video>
+        </div>
+      </section>
+      <!-- End Video Section -->
+
+      <!-- Start Footer Section -->
+      <footer class="footer">
+        <p>Copyright 2023, all right reserved by kareem roshdy</p>
+      </footer>
+      <!-- End Footer Section -->
+    </main>
+    <!-- End Main Section -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
