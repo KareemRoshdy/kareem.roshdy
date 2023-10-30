@@ -114,7 +114,7 @@ let projects = [
   {
     id: 9,
     image: "assets/images/projects/project-9.png",
-    video: "assets/videos/Project-8.mp4",
+    video: "assets/videos/Project-9.mp4",
     type: "Web App",
     title: "Notepad App",
     description:
