@@ -1,86 +1,3 @@
-// Dark & Light mode
-let theme = document.querySelector("html");
-
-const mode = JSON.parse(localStorage.getItem("mode"));
-
-if (mode) {
-  theme.dataset.theme = mode;
-}
-
-document.addEventListener("click", (e) => {
-  if (e.target.classList.contains("light")) {
-    theme.dataset.theme = "light";
-    localStorage.setItem("mode", JSON.stringify("light"));
-  }
-
-  if (e.target.classList.contains("dark")) {
-    theme.dataset.theme = "dark";
-    localStorage.setItem("mode", JSON.stringify("dark"));
-  }
-});
-
-// ALl Elements
-const content = document.querySelector(".wrapper-content");
-const projectsSection = document.querySelector(".projects-section");
-const resumeSection = document.querySelector(".resume-section");
-const contactSection = document.querySelector(".contact-section");
-const loader = document.querySelector(".loader");
-const navLink = document.querySelectorAll(".nav-link");
-const projectsContainer = document.querySelector(".projects-container");
-const projectDetails = document.querySelector(".project-details");
-const videoSection = document.querySelector(".video-section");
-const video = document.querySelector(".video-section video");
-const closeVideo = document.querySelector(".video-section .close");
-
-document.addEventListener("click", (e) => {
-  if (e.target.id === "projects") {
-    loader.style.display = "flex";
-
-    setTimeout(() => {
-      loader.style.display = "none";
-      projectsSection.classList.remove("hidden");
-      resumeSection.classList.add("hidden");
-      contactSection.classList.add("hidden");
-      projectDetails.classList.add("hidden");
-    }, 1000);
-  }
-
-  if (e.target.id === "resume") {
-    loader.style.display = "flex";
-
-    setTimeout(() => {
-      loader.style.display = "none";
-      resumeSection.classList.remove("hidden");
-      projectsSection.classList.add("hidden");
-      contactSection.classList.add("hidden");
-      projectDetails.classList.add("hidden");
-    }, 1000);
-  }
-
-  if (e.target.id === "contact") {
-    loader.style.display = "flex";
-
-    setTimeout(() => {
-      loader.style.display = "none";
-      contactSection.classList.remove("hidden");
-      projectsSection.classList.add("hidden");
-      resumeSection.classList.add("hidden");
-      projectDetails.classList.add("hidden");
-    }, 1000);
-  }
-});
-
-navLink.forEach((link) => {
-  link.addEventListener("click", () => {
-    navLink.forEach((e) => {
-      e.classList.remove("active");
-      link.classList.add("active");
-    });
-  });
-});
-
-// ====================== Projects ====================== //
-
 let projects = [
   {
     id: 1,
@@ -265,6 +182,89 @@ let projects = [
     },
   },
 ];
+
+// Dark & Light mode
+let theme = document.querySelector("html");
+
+const mode = JSON.parse(localStorage.getItem("mode"));
+
+if (mode) {
+  theme.dataset.theme = mode;
+}
+
+document.addEventListener("click", (e) => {
+  if (e.target.classList.contains("light")) {
+    theme.dataset.theme = "light";
+    localStorage.setItem("mode", JSON.stringify("light"));
+  }
+
+  if (e.target.classList.contains("dark")) {
+    theme.dataset.theme = "dark";
+    localStorage.setItem("mode", JSON.stringify("dark"));
+  }
+});
+
+// ALl Elements
+const content = document.querySelector(".wrapper-content");
+const projectsSection = document.querySelector(".projects-section");
+const resumeSection = document.querySelector(".resume-section");
+const contactSection = document.querySelector(".contact-section");
+const loader = document.querySelector(".loader");
+const navLink = document.querySelectorAll(".nav-link");
+const projectsContainer = document.querySelector(".projects-container");
+const projectDetails = document.querySelector(".project-details");
+const videoSection = document.querySelector(".video-section");
+const video = document.querySelector(".video-section video");
+const closeVideo = document.querySelector(".video-section .close");
+
+document.addEventListener("click", (e) => {
+  if (e.target.id === "projects") {
+    loader.style.display = "flex";
+
+    setTimeout(() => {
+      loader.style.display = "none";
+      projectsSection.classList.remove("hidden");
+      resumeSection.classList.add("hidden");
+      contactSection.classList.add("hidden");
+      projectDetails.classList.add("hidden");
+    }, 1000);
+  }
+
+  if (e.target.id === "resume") {
+    loader.style.display = "flex";
+
+    setTimeout(() => {
+      loader.style.display = "none";
+      resumeSection.classList.remove("hidden");
+      projectsSection.classList.add("hidden");
+      contactSection.classList.add("hidden");
+      projectDetails.classList.add("hidden");
+    }, 1000);
+  }
+
+  if (e.target.id === "contact") {
+    loader.style.display = "flex";
+
+    setTimeout(() => {
+      loader.style.display = "none";
+      contactSection.classList.remove("hidden");
+      projectsSection.classList.add("hidden");
+      resumeSection.classList.add("hidden");
+      projectDetails.classList.add("hidden");
+    }, 1000);
+  }
+});
+
+navLink.forEach((link) => {
+  link.addEventListener("click", () => {
+    navLink.forEach((e) => {
+      e.classList.remove("active");
+      link.classList.add("active");
+    });
+  });
+});
+
+// ====================== Projects ====================== //
 
 projects.map((project) => {
   projectsContainer.innerHTML += `
