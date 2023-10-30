@@ -85,7 +85,7 @@ let projects = [
   {
     id: 1,
     image: "assets/images/projects/project-2.jpg",
-    video: "assets/videos/project-2.mp4",
+    video: "./assets/videos/project-2.mp4",
     type: "Web app",
     title: "ToDo List App",
     description:
@@ -99,7 +99,7 @@ let projects = [
   {
     id: 2,
     image: "assets/images/projects/project-1.png",
-    video: "assets/videos/project-1.mp4",
+    video: "./assets/videos/project-1.mp4",
     type: "Web app",
     title: "E-Commerce App",
     description:
@@ -113,7 +113,7 @@ let projects = [
   {
     id: 3,
     image: "assets/images/projects/project-3.png",
-    video: "assets/videos/project-3.mp4",
+    video: "./assets/videos/project-3.mp4",
     type: "Web app",
     title: "Restaurant App",
     description:
@@ -127,7 +127,7 @@ let projects = [
   {
     id: 4,
     image: "assets/images/projects/project-4.png",
-    video: "assets/videos/project-4.mp4",
+    video: "./assets/videos/project-4.mp4",
     type: "Web app",
     title: "Animated Navigation",
     description:
@@ -141,7 +141,7 @@ let projects = [
   {
     id: 5,
     image: "assets/images/projects/project-5.png",
-    video: "assets/videos/project-5.mp4",
+    video: "./assets/videos/project-5.mp4",
     type: "Website",
     title: "Portfolio Website",
     description:
@@ -155,7 +155,7 @@ let projects = [
   {
     id: 6,
     image: "assets/images/projects/project-6.jpg",
-    video: "assets/videos/project-6.mp4",
+    video: "./assets/videos/project-6.mp4",
     type: "Web app",
     title: "Form validation",
     description:
@@ -169,7 +169,7 @@ let projects = [
   {
     id: 7,
     image: "assets/images/projects/project-7.jpg",
-    video: "assets/videos/project-7.mp4",
+    video: "./assets/videos/project-7.mp4",
     type: "Web app",
     title: "Weather App",
     description:
@@ -183,7 +183,7 @@ let projects = [
   {
     id: 8,
     image: "assets/images/projects/project-8.png",
-    video: "assets/videos/project-8.mp4",
+    video: "./assets/videos/project-8.mp4",
     type: "Web Site",
     title: "GitHub Clone",
     description:
@@ -197,7 +197,7 @@ let projects = [
   {
     id: 9,
     image: "assets/images/projects/project-9.png",
-    video: "assets/videos/project-8.mp4",
+    video: "./assets/videos/project-8.mp4",
     type: "Web App",
     title: "Notepad App",
     description:
@@ -211,7 +211,7 @@ let projects = [
   {
     id: 10,
     image: "assets/images/projects/project-10.png",
-    video: "assets/videos/project-10.mp4",
+    video: "./assets/videos/project-10.mp4",
     type: "Web App",
     title: "Quick Quiz",
     description:
@@ -225,7 +225,7 @@ let projects = [
   {
     id: 11,
     image: "assets/images/projects/project-11.png",
-    video: "assets/videos/project-11.mp4",
+    video: "./assets/videos/project-11.mp4",
     type: "Web App",
     title: "Movies App",
     description:
@@ -239,7 +239,7 @@ let projects = [
   {
     id: 12,
     image: "assets/images/projects/project-12.png",
-    video: "assets/videos/project-12.mp4",
+    video: "./assets/videos/project-12.mp4",
     type: "Web App",
     title: "Prayer Times",
     description:
@@ -253,7 +253,7 @@ let projects = [
   {
     id: 13,
     image: "assets/images/projects/project-13.png",
-    video: "assets/videos/project-13.mp4",
+    video: "./assets/videos/project-13.mp4",
     type: "Web App",
     title: "Todo App",
     description:
